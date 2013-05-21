@@ -29,26 +29,26 @@ namespace Test
         // Get all propertys from https://github.com/chillitom/CefSharp/blob/master/CefSharp/BrowserCore.h
         void webView_PropertyChanged(object sender, PropertyChangedEventArgs e)
         {
-            webView = (WebView)sender;
+            BrowserCore core = (BrowserCore)sender;
             switch (e.PropertyName)
             {
                 case "IsBrowserInitialized":
-                    //webView.IsBrowserInitialized
+                    //core.IsBrowserInitialized
                     break;
                 case "Title":
-                    //webView.Title
+                    //core.Title
                     break;
                 case "Address":
-                    //webView.Address
+                    //core.Address
                     break;
                 case "CanGoBack":
-                    //webView.CanGoBack
+                    //core.CanGoBack
                     break;
                 case "CanGoForward":
-                    //webView.CanGoForward;
+                    //core.CanGoForward;
                     break;
                 case "IsLoading":
-                    //webView.IsLoading
+                    //core.IsLoading
                     break;
             }
         }
