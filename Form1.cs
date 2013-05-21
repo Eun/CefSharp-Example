@@ -51,5 +51,6 @@ namespace Test
                     //webView.IsLoading
                     break;
             }
+        }
     }
 }
